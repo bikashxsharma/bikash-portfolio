@@ -1,0 +1,26 @@
+@import '../../../styles/main';
+
+button {
+	padding: 10px 25px;
+	background: transparent;
+	font-size: 2rem;
+	font-weight: weight(medium);
+	line-height: 23px;
+	border-radius: 4px;
+}
+
+.outline {
+	border: 2px solid $primary;
+	color: $light;
+}
+
+.solid {
+	border: none;
+	background: $gray;
+	color: $bg;
+}
+.solid-primary {
+	border: none;
+	background: $primary;
+	color: $bg;
+}

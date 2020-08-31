@@ -1,0 +1,30 @@
+@import '../../../../styles/main';
+.rp-card {
+	min-height: 410px;
+	max-width: 355px;
+	width: 100%;
+	margin: 10px 15px;
+	border-radius: 4px;
+	&__image {
+		min-height: 200px;
+		img {
+			border-radius: 4px 4px 0 0;
+		}
+	}
+	&__contents {
+		text-align: left;
+		padding: 10px 20px;
+		background: $bg-light;
+		border-radius: 0 0 4px 4px;
+		h4 {
+			color: $light;
+			margin-bottom: 5px;
+		}
+		p {
+			margin-bottom: 10px;
+		}
+		button {
+			margin-right: 10px;
+		}
+	}
+}

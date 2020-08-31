@@ -1,25 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { createMuiTheme } from '@material-ui/core/styles'
+import { ThemeProvider } from '@material-ui/styles'
+
+import Routes from './Routes'
+
+import './app.scss'
 
 function App() {
+
+  const theme = createMuiTheme({
+    palette: {
+      primary: {
+        main: '#f2aa26',
+        dark: '#f09c01',
+      },
+      secondary: {
+        main: '#11cb5f',
+      },
+      text: {
+        primary: '#373585',
+        secondary: '#a4a6b3',
+      },
+      background: {
+        default: '#f7f8fc',
+      },
+    },
+    typography: {
+      fontFamily: 'Jost, sans- serif',
+      fontWeightBold: 700,
+      fontWeightMedium: 600,
+      fontWeightRegular: 400,
+    },
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Routes />
+      </div>
+    </ThemeProvider>
+
   );
 }
 
