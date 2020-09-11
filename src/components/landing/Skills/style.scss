@@ -16,4 +16,7 @@
 		flex-wrap: wrap;
 		margin-top: 50px;
 	}
+	@media (max-width: 600px) {
+		padding: 40px 20px;
+	}
 }

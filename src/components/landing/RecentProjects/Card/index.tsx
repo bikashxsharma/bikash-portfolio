@@ -1,23 +1,19 @@
 import React from 'react'
 
+import Tag from '../../../common/Tag'
 import './style.scss'
 
-type ButtonPropType = {
-	label: string
-	link: string
-	variant?: string
-}
 type CardPropType = {
 	title: string
 	detail: string
 	image: string
-	buttons?: ButtonPropType[]
+	status?: string
 }
 const Card: React.FC<CardPropType> = ({
 	title,
 	detail,
 	image,
-	buttons,
+	status,
 	children,
 }) => {
 	return (
@@ -30,6 +26,11 @@ const Card: React.FC<CardPropType> = ({
 				<p>{detail}</p>
 				<div className='rp-card__buttons'>{children}</div>
 			</div>
+			{status && (
+				<div className='repo-tag'>
+					<Tag label={status} color='secondary' />
+				</div>
+			)}
 		</div>
 	)
 }

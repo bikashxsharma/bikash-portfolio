@@ -1,6 +1,7 @@
 import React from 'react'
 
 import HeroImage from '../../../../assets/images/hero-image.png'
+import HeaderBg from '../../../../assets/images/header__bg.png'
 import Button from '../../../common/Button'
 
 import './style.scss'
@@ -17,11 +18,20 @@ export const Banner = () => {
 						Stack Developer who has also gained experience
 						as a consultant, product designer, and digital
 						marketer. I commit code to{' '}
-						<span className='github'>Github</span>, and take
-						shots on{' '}
-						<span className='dribbble'> Dribbble.</span>
+						<a
+							className='github'
+							href='https://github.com/bikashxsharma'
+							target='_blank'
+							rel='noopener noreferrer'>
+							Github.
+						</a>
 					</h5>
-					<Button label='See projects' variant='outline' />
+					<a href='#recent-projects'>
+						<Button
+							label='See projects'
+							variant='outline'
+						/>
+					</a>
 				</div>
 				<div className='banner__image'>
 					<img
@@ -30,6 +40,11 @@ export const Banner = () => {
 					/>
 				</div>
 			</div>
+			<img
+				src={HeaderBg}
+				alt='code abstract background'
+				className='banner__bg'
+			/>
 		</div>
 	)
 }

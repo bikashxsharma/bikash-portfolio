@@ -11,7 +11,7 @@ import './style.scss'
 
 function Skills() {
 	return (
-		<div className='skills'>
+		<div id='skills' className='skills'>
 			<div className='skills__container'>
 				<div className='section__title'>
 					<h3>What I know</h3>

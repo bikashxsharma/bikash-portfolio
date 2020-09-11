@@ -1,22 +1,27 @@
 import React from 'react'
-import portfolio_thumb from '../../../../assets/images/portfolio_thumb.png'
 
 import './style.scss'
 
-type CardPropType = {}
-const Card: React.FC<CardPropType> = ({}) => {
+type CardPropType = {
+	title: string
+	detail: string
+	image: string
+}
+const Card: React.FC<CardPropType> = ({
+	title,
+	detail,
+	image,
+}) => {
 	return (
 		<div className='client-card'>
 			<div className='client-card__image'>
-				<img
-					src={portfolio_thumb}
-					alt='Everest Helsinki Card'
-				/>
+				<img src={image} alt={title} />
 				<div className='overlay'></div>
 			</div>
 			<div className='client-card__contents'>
-				<h4>Everest Helsinki</h4>
-				<p>Dynamic site design and develop</p>
+				<p>{detail}</p>
+				<h4>{title}</h4>
+				<div className='client-card__button'></div>
 			</div>
 		</div>
 	)
