@@ -1,9 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 
 import Logo from 'assets/brands/logo'
 import MenuIcon from '@material-ui/icons/Menu'
 import Button from 'components/common/Button'
 import CloseIcon from '@material-ui/icons/Close'
+import ContactForm from 'components/common/ContactForm'
 
 import './style.scss'
 
@@ -16,54 +17,69 @@ const Navbar = () => {
 		closeIconRef.current?.classList.toggle('hide')
 		navRef.current?.classList.toggle('show')
 	}
+	const [value, setValue] = useState(false)
+	const handleClose = (value: boolean) => {
+		setValue(value)
+	}
+
+	const handleOpen = () => {
+		setValue(true)
+	}
 
 	return (
-		<div id='nav-bar' className='navbar'>
-			<div className='navbar__container'>
-				<div className='navbar__logo'>
-					<a href='#nav-bar' rel='noopener noreferrer'>
-						<Logo />
-					</a>
-				</div>
-				<div className='navbar__links'>
-					<div ref={hamburgerRef}>
-						<MenuIcon
-							onClick={toggleMenu}
-							id='nav-hamburger'
-							className='navbar__hamburger '
-						/>
+		<>
+			{value && <ContactForm onclose={handleClose} />}
+			<div id='nav-bar' className='navbar'>
+				<div className='navbar__container'>
+					<div className='navbar__logo'>
+						<a href='#nav-bar' rel='noopener noreferrer'>
+							<Logo />
+						</a>
 					</div>
-					<div ref={closeIconRef} className='hide'>
-						<CloseIcon
-							onClick={toggleMenu}
-							id='nav-close'
-							className='navbar__closeIcon '
-						/>
-					</div>
+					<div className='navbar__links'>
+						<div ref={hamburgerRef}>
+							<MenuIcon
+								onClick={toggleMenu}
+								id='nav-hamburger'
+								className='navbar__hamburger '
+							/>
+						</div>
+						<div ref={closeIconRef} className='hide'>
+							<CloseIcon
+								onClick={toggleMenu}
+								id='nav-close'
+								className='navbar__closeIcon '
+							/>
+						</div>
 
-					<ul
-						ref={navRef}
-						onClick={toggleMenu}
-						className='navigation '>
-						<li>
-							<a
-								href='#recent-projects'
-								rel='noopener noreferrer'>
-								Projects
-							</a>
-						</li>
-						<li>
-							<a
-								href='#recent-experience'
-								rel='noopener noreferrer'>
-								CV
-							</a>
-						</li>
-						<Button label='Contact' variant='outline' />
-					</ul>
+						<ul
+							ref={navRef}
+							onClick={toggleMenu}
+							className='navigation '>
+							<li>
+								<a
+									href='#recent-projects'
+									rel='noopener noreferrer'>
+									Projects
+								</a>
+							</li>
+							<li>
+								<a
+									href='#recent-experience'
+									rel='noopener noreferrer'>
+									CV
+								</a>
+							</li>
+							<Button
+								onClick={handleOpen}
+								label='Contact'
+								variant='outline'
+							/>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 

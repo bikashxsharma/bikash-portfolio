@@ -3,9 +3,8 @@
 	padding: 40px;
 	width: 100%;
 	background-color: $bg-light;
+	text-align: center;
 	&__container {
-		max-width: $max-width;
-		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

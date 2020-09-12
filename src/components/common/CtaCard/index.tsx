@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
-import Button from '../Button'
-import ContactForm from '../ContactForm'
+import Button from 'components/common/Button'
+import ContactForm from 'components/common/ContactForm'
 
 import './style.scss'
 
@@ -22,14 +22,8 @@ const CtaCard: React.FC<CtaCardPropType> = ({
 	label,
 }) => {
 	const [value, setValue] = useState(false)
-	let bikash = ''
 	const handleClose = (value: boolean) => {
 		setValue(value)
-		console.log('Close is running')
-		bikash = 'hero'
-		console.log('Bikash', bikash)
-
-		console.log('value', value)
 	}
 
 	const handleOpen = () => {
