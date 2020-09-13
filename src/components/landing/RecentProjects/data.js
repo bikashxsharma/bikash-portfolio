@@ -4,7 +4,7 @@ export const RecentProjectData = [
     detail:
       'React, Redux, Thunk, Material UI, SCSS, Node, Express, MongoDB',
     image: process.env.PUBLIC_URL + '/images/library_thumb.png',
-    buttons: [{ label: 'Demo', link: '' }, { label: 'Code', link: '' },],
+    buttons: [{ label: 'Demo', link: '' }, { label: 'Code', link: 'https://github.com/bikashxsharma/library-app' },],
     status: 'Private Repo',
   },
   {
