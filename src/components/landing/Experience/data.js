@@ -4,7 +4,7 @@ export const ExperienceData = [
     detail:
       'Lemon is a mobile app for handling menu orders in restaurants',
     image: process.env.PUBLIC_URL + '/images/lemon_logo.png',
-    progress: 'In development',
+    progress: 'In development..',
   },
   {
     title: 'Co-founder',
@@ -18,7 +18,7 @@ export const ExperienceData = [
     detail:
       'A knowledge-sharing platform between experts and learners',
     image: process.env.PUBLIC_URL + '/images/kaamyabi_logo.png',
-    progress: 'In progress',
+    progress: 'In development..',
   },
   {
     title: 'Product Designer',

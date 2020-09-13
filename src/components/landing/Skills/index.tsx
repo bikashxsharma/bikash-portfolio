@@ -14,7 +14,7 @@ function Skills() {
 		<div id='skills' className='skills'>
 			<div className='skills__container'>
 				<div className='section__title'>
-					<h3>What I know</h3>
+					<h3>My skill set</h3>
 				</div>
 				<div className='skills__lists'>
 					<Skill

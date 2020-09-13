@@ -1,16 +1,18 @@
 @import '../../../styles/main';
 .navbar {
-	padding: 40px;
+	padding: 20px;
 	width: 100%;
 	z-index: 99;
+	background: $bg;
+	position: fixed;
 	&__container {
 		max-width: $max-width;
+		padding-top: 20px;
 		width: 100%;
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background: $bg;
 	}
 	&__logo {
 	}

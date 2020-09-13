@@ -10,12 +10,11 @@ function Experience() {
 		<div id='recent-experience' className='experience'>
 			<div className='experience__container'>
 				<div className='section__title'>
-					<h3>Recent Experiences</h3>
+					<h3>Experience</h3>
 				</div>
 				<p>
-					I have taken part in different projects, startups
-					and clients projects. Following are my involvement
-					in different startups and projects.{' '}
+					I have also taken part in the following projects
+					and startups.{' '}
 				</p>
 				<div className='experience__cards'>
 					{ExperienceData.map((data) => (

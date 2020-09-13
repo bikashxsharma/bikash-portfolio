@@ -67,6 +67,17 @@ const Navbar = () => {
 								<a
 									href='#recent-experience'
 									rel='noopener noreferrer'>
+									Experiences
+								</a>
+							</li>
+							<li>
+								<a
+									href={
+										process.env.PUBLIC_URL +
+										'/images/Bikash_Sharma_CV.pdf'
+									}
+									rel='noopener noreferrer'
+									target='_blank'>
 									CV
 								</a>
 							</li>
