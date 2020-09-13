@@ -19,32 +19,32 @@ function Skills() {
 				<div className='skills__lists'>
 					<Skill
 						name='Front-end'
-						detail='React, Typescript, Redux, Gatsby'
+						detail='React, Typescript, Redux, Redux thunk, Gatsby'
 						icon={reactIcon}
 					/>
 					<Skill
 						name='Back-end'
-						detail='React, Typescript, Redux, Gatsby'
+						detail='Node, Express, MongoDB'
 						icon={nodeIcon}
 					/>
 					<Skill
 						name='Style/Library'
-						detail='React, Typescript, Redux, Gatsby'
+						detail='CSS, SASS, LESS, Material UI, Bootstrap'
 						icon={sassIcon}
 					/>
 					<Skill
 						name='UX/UI'
-						detail='React, Typescript, Redux, Gatsby'
+						detail='Research, user journey, wireframe, prototype, interaction, test'
 						icon={uxIcon}
 					/>
 					<Skill
 						name='Additional Languages'
-						detail='React, Typescript, Redux, Gatsby'
+						detail='Python, PHP'
 						icon={pythonIcon}
 					/>
 					<Skill
 						name='Tools'
-						detail='React, Typescript, Redux, Gatsby'
+						detail='Figma, Draw.io, Adobe suite, Jira'
 						icon={figmaIcon}
 					/>
 				</div>

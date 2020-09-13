@@ -2,9 +2,9 @@ export const RecentProjectData = [
   {
     title: 'Library App',
     detail:
-      'React, Redux, Thunk, Material UI, SCSS, Node, Express, MongoDB',
+      'React, Typescript, Redux, Thunk, Material UI, SCSS, Node, Express, MongoDB',
     image: process.env.PUBLIC_URL + '/images/library_thumb.png',
-    buttons: [{ label: 'Demo', link: '' }, { label: 'Code', link: 'https://github.com/bikashxsharma/library-app' },],
+    buttons: [{ label: 'Demo', link: 'https://github.com/bikashxsharma/library-app#screenshots' }, { label: 'Code', link: 'https://github.com/bikashxsharma/library-app' },],
     status: 'Private Repo',
   },
   {
@@ -17,14 +17,14 @@ export const RecentProjectData = [
   {
     title: 'My portfolio',
     detail:
-      'React, Redux, Thunk, Material UI, SCSS, Node, Express, MongoDB',
+      'React, Typescript, Material UI, SCSS, Flex, Figma',
     image: process.env.PUBLIC_URL + '/images/portfolio_thumb.png',
     buttons: [{ label: 'Demo', link: 'https://bikashxsharma.netlify.com/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/bikash-portfolio' }],
   },
   {
     title: 'Country Api',
     detail:
-      'React, Redux, Thunk, Material UI, SCSS, Node, Express, MongoDB',
+      'React, Typescript, Redux, Thunk, Material UI, SCSS',
     image: process.env.PUBLIC_URL + '/images/countryApi_thumb.png',
     buttons: [{ label: 'Demo', link: 'https://bcountry-api.netlify.app/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/country-api' }],
   },
@@ -33,7 +33,7 @@ export const RecentProjectData = [
     detail:
       'Desktop GUI app using Python, Selenium & Tkinter',
     image: process.env.PUBLIC_URL + '/images/web_scrap_thumb.png',
-    buttons: [{ label: 'Demo', link: '' }, { label: 'Code', link: 'https://github.com/bikashxsharma/python-web-scrap' }],
+    buttons: [{ label: 'Code', link: 'https://github.com/bikashxsharma/python-web-scrap' }],
 
   },
   {
