@@ -18,12 +18,7 @@ function Experience() {
 				</p>
 				<div className='experience__cards'>
 					{ExperienceData.map((data) => (
-						<ExperienceCard
-							title={data.title}
-							detail={data.detail}
-							progress={data.progress}
-							logo={data.image}
-						/>
+						<ExperienceCard {...data} logo={data.image} />
 					))}
 				</div>
 			</div>

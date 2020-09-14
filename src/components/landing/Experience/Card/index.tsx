@@ -7,6 +7,7 @@ type ExperienceCardPropType = {
 	title: string
 	detail: string
 	progress: string
+	time?: string
 }
 
 const ExperienceCard: React.FC<ExperienceCardPropType> = ({
@@ -14,6 +15,7 @@ const ExperienceCard: React.FC<ExperienceCardPropType> = ({
 	title,
 	detail,
 	progress,
+	time,
 }) => {
 	return (
 		<div className='experience-card'>
@@ -26,6 +28,8 @@ const ExperienceCard: React.FC<ExperienceCardPropType> = ({
 				<p className='experience-card__progress'>
 					{progress}
 				</p>
+
+				<p className='experience-card__time'>{time}</p>
 			</div>
 		</div>
 	)

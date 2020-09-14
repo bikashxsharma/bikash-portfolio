@@ -22,7 +22,7 @@ export const RecentProjectData = [
     buttons: [{ label: 'Demo', link: 'https://bikashxsharma.netlify.com/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/bikash-portfolio' }],
   },
   {
-    title: 'Country Api',
+    title: 'Country Info',
     detail:
       'React, Typescript, Redux, Thunk, Material UI, SCSS',
     image: process.env.PUBLIC_URL + '/images/countryApi_thumb.png',
@@ -33,7 +33,7 @@ export const RecentProjectData = [
     detail:
       'Desktop GUI app using Python, Selenium & Tkinter',
     image: process.env.PUBLIC_URL + '/images/web_scrap_thumb.png',
-    buttons: [{ label: 'Code', link: 'https://github.com/bikashxsharma/python-web-scrap' }],
+    buttons: [{ label: 'Demo', link: 'https://github.com/bikashxsharma/python-web-scrap/tree/master#screenshots' }, { label: 'Code', link: 'https://github.com/bikashxsharma/python-web-scrap' }],
 
   },
   {
