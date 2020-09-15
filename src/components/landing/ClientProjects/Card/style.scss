@@ -1,6 +1,6 @@
 @import '../../../../styles/main';
 .client-card {
-	max-width: 355px;
+	max-width: 370px;
 	width: 100%;
 	margin: 10px 15px;
 	position: relative;
@@ -13,6 +13,10 @@
 		min-height: 200px;
 		border-radius: 4px;
 		position: relative;
+		img {
+			max-width: 370px;
+			border-radius: 4px 4px 0 0;
+		}
 		.overlay {
 			position: absolute;
 			width: 100%;
@@ -47,15 +51,15 @@
 		}
 	}
 	@media (max-width: 820px) {
-		max-width: 100%;
+		max-width: 90%;
 		min-width: 370px;
-		margin: 10px 0px;
-		padding: 0px;
+		margin: 10px 15px;
 		margin-bottom: 40px;
+		padding: 0px;
 		&__image {
 			img {
 				border-radius: 4px 4px 0 0;
-				width: 100%;
+				max-width: 100%;
 			}
 		}
 	}
