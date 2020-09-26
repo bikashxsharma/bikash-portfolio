@@ -37,11 +37,18 @@ export const RecentProjectData = [
 
   },
   {
-    title: 'Git Trending',
+    title: 'Grocery code search',
     detail:
-      'Git weekly trending app made using React, CSS, Flex',
-    image: process.env.PUBLIC_URL + '/images/git_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://git-weekly-trending.netlify.app/' }, { label: 'Code', link: "https://github.com/bikashxsharma/weekly-trending" }],
+      'Mobile Webapp: React, Typescript, SCSS, CSS/FLEX, React Hook',
+    image: process.env.PUBLIC_URL + '/images/plucodes_thumb.png',
+    buttons: [{ label: 'Demo', link: 'https://produce-code.netlify.app/' }, { label: 'Code', link: "https://github.com/bikashxsharma/produce-code" }],
   },
+  // {
+  //   title: 'Git Trending',
+  //   detail:
+  //     'Git weekly trending app made using React, CSS, Flex',
+  //   image: process.env.PUBLIC_URL + '/images/git_thumb.png',
+  //   buttons: [{ label: 'Demo', link: 'https://git-weekly-trending.netlify.app/' }, { label: 'Code', link: "https://github.com/bikashxsharma/weekly-trending" }],
+  // },
 
 ]
