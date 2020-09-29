@@ -3,7 +3,6 @@ import { createMuiTheme } from '@material-ui/core/styles'
 import { ThemeProvider } from '@material-ui/styles'
 
 import Routes from 'Routes'
-import { initGA } from 'index'
 
 import './app.scss'
 
@@ -32,9 +31,7 @@ function App() {
 			fontWeightRegular: 400,
 		},
 	})
-	React.useEffect(() => {
-		initGA()
-	}, [])
+
 	return (
 		<ThemeProvider theme={theme}>
 			<div className='App'>
