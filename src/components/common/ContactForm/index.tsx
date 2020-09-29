@@ -33,25 +33,16 @@ const ContactForm: React.FC<FormProp> = ({
 				<HighlightOffIcon
 					className='form__close'
 					onClick={closeModal}
-				/>
+				/>{' '}
 				<ReactTypeformEmbed
 					url='https://demo.typeform.com/to/XCm2PQqB'
 					popup={false}
 					style={styleDefault}
-				/>
+				/>{' '}
+				<h3 className='form__loader'>
+					loading..
+				</h3>
 			</div>
-
-			{/* {typeformEmbed.makePopup(
-				'https://admin.typeform.com/to/XCm2PQqB',
-				{
-					mode: 'popup',
-					width: 320,
-					height: 500,
-					open: 'load',
-					autoClose: 5,
-					onClose: closeModal,
-				},
-			)} */}
 		</div>
 	)
 }
