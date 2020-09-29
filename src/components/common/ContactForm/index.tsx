@@ -1,7 +1,8 @@
 import React from 'react'
 import { ReactTypeformEmbed } from 'react-typeform-embed'
 import HighlightOffIcon from '@material-ui/icons/HighlightOff'
-//import * as typeformEmbed from '@typeform/embed'
+
+import { GAmodalView } from 'index'
 
 import './style.scss'
 
@@ -15,35 +16,33 @@ const styleDefault = {
 	height: '100%',
 	overflow: 'hidden',
 }
-const ContactForm: React.FC<FormProp> = ({ onclose }) => {
+const ContactForm: React.FC<FormProp> = ({
+	onclose,
+}) => {
 	const closeModal = () => {
 		onclose(false)
 	}
+	React.useEffect(() => {
+		GAmodalView('Contact popup')
+	}, [])
 	return (
-		<div onClick={closeModal} className='contact-form'>
+		<div
+			onClick={closeModal}
+			className='contact-form'>
 			<div className='form__inner'>
 				<HighlightOffIcon
 					className='form__close'
 					onClick={closeModal}
-				/>
+				/>{' '}
 				<ReactTypeformEmbed
 					url='https://demo.typeform.com/to/XCm2PQqB'
 					popup={false}
 					style={styleDefault}
-				/>
+				/>{' '}
+				<h3 className='form__loader'>
+					loading..
+				</h3>
 			</div>
-
-			{/* {typeformEmbed.makePopup(
-				'https://admin.typeform.com/to/XCm2PQqB',
-				{
-					mode: 'popup',
-					width: 320,
-					height: 500,
-					open: 'load',
-					autoClose: 5,
-					onClose: closeModal,
-				},
-			)} */}
 		</div>
 	)
 }

@@ -1,17 +1,21 @@
 import React from 'react'
 
-import Header from '../../components/landing/Header/Header'
-import Skills from '../../components/landing/Skills'
-import RecentProjects from '../../components/landing/RecentProjects'
-import ClientProjects from '../../components/landing/ClientProjects'
-import ArticlesVideos from '../../components/landing/ArticlesVideos'
-import Experience from '../../components/landing/Experience'
-import CtaCard from '../../components/common/CtaCard'
-import Footer from '../../components/common/Footer'
+import Header from 'components/landing/Header/Header'
+import Skills from 'components/landing/Skills'
+import RecentProjects from 'components/landing/RecentProjects'
+import ClientProjects from 'components/landing/ClientProjects'
+import ArticlesVideos from 'components/landing/ArticlesVideos'
+import Experience from 'components/landing/Experience'
+import CtaCard from 'components/common/CtaCard'
+import Footer from 'components/common/Footer'
+import { initGA } from 'index'
 
 import './style.scss'
 
 const Home = () => {
+	React.useEffect(() => {
+		initGA()
+	}, [])
 	return (
 		<div>
 			<Header />

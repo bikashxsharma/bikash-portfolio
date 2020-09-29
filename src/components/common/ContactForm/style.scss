@@ -1,3 +1,4 @@
+@import 'styles/_main.scss';
 .contact-form {
 	position: fixed !important;
 	top: 0;
@@ -12,6 +13,7 @@
 	height: 70vh;
 	margin: 10% auto 0 auto;
 	position: relative;
+	background-color: $gray-light;
 	.form__close {
 		position: absolute;
 		top: 0;
@@ -22,5 +24,11 @@
 		margin-top: -10px;
 		z-index: 10;
 		cursor: pointer;
+	}
+	.form__loader {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }

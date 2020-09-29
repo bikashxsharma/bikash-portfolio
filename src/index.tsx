@@ -3,6 +3,21 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
+import ReactGA from 'react-ga'
+
+export const initGA = () => {
+	ReactGA.initialize('UA-179274475-1')
+}
+export const GApageView = (
+	page: string,
+) => {
+	ReactGA.pageview(page)
+}
+export const GAmodalView = (
+	modal: string,
+) => {
+	ReactGA.modalview(modal)
+}
 
 ReactDOM.render(
 	<React.StrictMode>
