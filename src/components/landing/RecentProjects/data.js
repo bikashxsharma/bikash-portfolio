@@ -29,6 +29,13 @@ export const RecentProjectData = [
     buttons: [{ label: 'Demo', link: 'https://bcountry-api.netlify.app/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/country-api' }],
   },
   {
+    title: 'Lets do it',
+    detail:
+      'Day todo app using Vue, Vue router, Vuex, css,',
+    image: process.env.PUBLIC_URL + '/images/letsdoit_thumb.png',
+    buttons: [{ label: 'Demo', link: 'https://vueletsdoit.netlify.app/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/vue-lets-do-it' }],
+  },
+  {
     title: 'Web Scrap v1',
     detail:
       'Desktop GUI app using Python, Selenium & Tkinter',
