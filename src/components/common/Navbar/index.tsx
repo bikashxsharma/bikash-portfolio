@@ -70,7 +70,7 @@ const Navbar = () => {
 									Experiences
 								</a>
 							</li>
-							<li>
+							{/* <li>
 								<a
 									href={
 										process.env.PUBLIC_URL +
@@ -80,7 +80,7 @@ const Navbar = () => {
 									target='_blank'>
 									CV
 								</a>
-							</li>
+							</li> */}
 							<Button
 								onClick={handleOpen}
 								label='Contact'

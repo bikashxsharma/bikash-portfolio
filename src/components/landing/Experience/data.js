@@ -1,11 +1,11 @@
 export const ExperienceData = [
   {
-    title: 'UX/UI Designer',
+    title: 'Lead Product Developer',
     detail:
-      'Lemon is a mobile app for handling menu orders in restaurants',
-    image: process.env.PUBLIC_URL + '/images/lemon_logo.png',
-    progress: 'In development..',
-    time: '05.2020 - 07.2020',
+      'WordPress hosting for agencies and freelancers, that makes growing your business easier than ever before.',
+    image: process.env.PUBLIC_URL + '/images/wonsta_logo.png',
+    progress: 'On going',
+    time: '10.2020 -',
   },
   {
     title: 'Co-founder',

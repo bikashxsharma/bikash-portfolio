@@ -23,8 +23,8 @@ function Skills() {
 						icon={reactIcon}
 					/>
 					<Skill
-						name='Back-end'
-						detail='Node, Express, MongoDB'
+						name='Back-end + DevOps'
+						detail='Node, Express, SQL, Google Cloud, Kubernetes'
 						icon={nodeIcon}
 					/>
 					<Skill

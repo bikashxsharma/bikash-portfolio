@@ -35,7 +35,7 @@ const ContactForm: React.FC<FormProp> = ({
 					onClick={closeModal}
 				/>{' '}
 				<ReactTypeformEmbed
-					url='https://demo.typeform.com/to/XCm2PQqB'
+					url='https://bikashsharma.typeform.com/to/XCm2PQqB'
 					popup={false}
 					style={styleDefault}
 				/>{' '}

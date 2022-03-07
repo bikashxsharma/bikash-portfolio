@@ -1,6 +1,5 @@
 # My Full stack developer's portfolio [Live link](https://bikashxsharma.netlify.com/)
 - Designed & Developed by [Bikash Sharma](https://github.com/bikashxsharma)
-- Designed in Figma [view design workflow](https://youtu.be/D3YN9Uz8eMQ)
 
 ### Sections
 - Home banner(Name, title, and a summary about me)

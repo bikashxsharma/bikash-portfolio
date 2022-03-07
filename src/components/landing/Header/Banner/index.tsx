@@ -15,17 +15,22 @@ export const Banner = () => {
 					<h1>Full Stack Developer</h1>
 					<h5>
 						I’m a Helsinki based full stack developer
-						focused on the{' '}
+						focused on writing code that makes an{' '}
 						<span className='text-highlight'>
-							front-end
+							impact to users.
 						</span>
-						. I have also gained experience as a consultant
+						 I have also gained experience as a consultant
 						,
 						<span className='text-highlight'>
 							product designer
 						</span>
-						, and digital marketer. Additionally, I am
-						familiar with startup ecosystems. I commit code
+						, and digital marketer. Currently a co-founder and Lead Product Developer at <a
+							className='github'
+							href='https://wonsta.io'
+							target='_blank'
+							rel='noopener noreferrer'>
+							Wonsta.
+						</a>. I commit code
 						to{' '}
 						<a
 							className='github'
@@ -33,6 +38,19 @@ export const Banner = () => {
 							target='_blank'
 							rel='noopener noreferrer'>
 							Github.
+						</a>Make videos on{' '}
+						<a
+							className='github'
+							href='https://www.youtube.com/channel/UCKtcuEBjG-8T1HDrpuAprww/videos'
+							target='_blank'
+							rel='noopener noreferrer'>
+							 Bikashweb.
+						</a>{' '}And write articles on <a
+							className='github'
+							href='https://bikashxsharma.medium.com/'
+							target='_blank'
+							rel='noopener noreferrer'>
+							Medium.
 						</a>
 					</h5>
 					<a href='#recent-projects'>

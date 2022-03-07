@@ -1,21 +1,22 @@
 export const RecentProjectData = [
   {
-    title: 'React Hooks',
+    title: 'Country Rest API App',
     detail:
-      'Video: React Hooks and implementing it to get data from API',
-    image: process.env.PUBLIC_URL + '/images/react_hook_thumb.png',
-    link: 'https://www.youtube.com/watch?v=fuAUxGVb3Eg',
+      'Build a complete web app using Country Rest API | React Portfolio Project with TypeScript',
+    image: 'https://i.ytimg.com/vi/gQACsKc7hYc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFdY4KgWTa0_urhYuLRKmkwTbwyQ',
+    link: 'https://www.youtube.com/watch?v=gQACsKc7hYc&t=6362s',
+  }, 
+  {
+    title: 'Redux explained',
+    detail:
+      'A Complete walk around of react-redux',
+    image: 'https://i.ytimg.com/vi/qn1ULr7oiS0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7mYyzET7GA2V6RRnH1KTC69F99A',
+    link: 'https://www.youtube.com/watch?v=qn1ULr7oiS0',
   }, {
-    title: 'SVG animation',
+    title: 'Protected Routes',
     detail:
-      'Video: An easy animation using CSS and SVG',
-    image: process.env.PUBLIC_URL + '/images/css_animate_thumb.png',
-    link: 'https://www.youtube.com/watch?v=1CPLjOSl9vU',
-  }, {
-    title: 'Improve website usability',
-    detail:
-      'Medium blog on how to improve website usability',
-    image: process.env.PUBLIC_URL + '/images/usability_thumb.png',
-    link: 'https://medium.com/@bikashxsharma/5-tips-to-improve-your-websites-usability-ad7107ba5f28',
+      'Handle Protected Route in Router v6',
+    image: 'https://i.ytimg.com/vi/z5s28GAgB1M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCm5oVoH67Iz3hcyQXYI9tF3QTng',
+    link: 'https://www.youtube.com/watch?v=z5s28GAgB1M&t=872s',
   },
 ]

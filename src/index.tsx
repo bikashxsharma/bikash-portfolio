@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import {BrowserRouter} from 'react-router-dom'
 import * as serviceWorker from './serviceWorker'
 import ReactGA from 'react-ga'
+
+
+import './index.css'
+import App from './App'
 
 export const initGA = () => {
 	ReactGA.initialize('UA-179274475-1')
@@ -20,9 +23,9 @@ export const GAmodalView = (
 }
 
 ReactDOM.render(
-	<React.StrictMode>
+	<BrowserRouter>
 		<App />
-	</React.StrictMode>,
+	</BrowserRouter>,
 	document.getElementById('root'),
 )
 
