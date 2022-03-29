@@ -1,7 +1,8 @@
 @import '../../../../styles/main';
 .article-card {
-	max-width: 355px;
+	max-width: 400px;
 	width: 100%;
+	min-width: 300px;
 	margin: 10px 15px;
 	position: relative;
 	transition: 200ms transform ease-in-out;
@@ -10,7 +11,9 @@
 		cursor: pointer;
 	}
 	&__image {
-		min-height: 200px;
+		min-height:250px;
+		max-height:400px;
+
 		border-radius: 4px;
 		position: relative;
 		.overlay {

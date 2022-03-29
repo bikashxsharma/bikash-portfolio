@@ -1,18 +1,19 @@
 export const RecentProjectData = [
   {
-    title: 'Library App',
+    title: 'CV maker',
     detail:
-      'React, Typescript, Redux, Thunk, Material UI, SCSS, Node, Express, MongoDB',
-    image: process.env.PUBLIC_URL + '/images/library_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://github.com/bikashxsharma/library-app#screenshots' }, { label: 'Code', link: 'https://github.com/bikashxsharma/library-app' },],
+      'A react app to make CV with dynamic content, branding and exported to PDF.',
+    image: process.env.PUBLIC_URL + '/images/cv_maker.png',
+    buttons: [{ label: 'Demo', link: 'https://bw-cv-maker.netlify.app/left' }, { label: 'Code', link: 'https://github.com/bikashxsharma/cv-maker-react' },],
     status: 'Private Repo',
   },
   {
-    title: 'Spotify Clone',
+    title: 'Hotel Website',
     detail:
-      'React, React Context API, Material UI, CSS, Flex, Spotify Web API',
-    image: process.env.PUBLIC_URL + '/images/spotify_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://spot-clone.netlify.app/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/spotify_clone' }],
+      'WordPress website for hotel. Designed and Developed by me.',
+    image: process.env.PUBLIC_URL + '/images/hotel_triplehill.png',
+    buttons: [{ label: 'Demo', link: 'https://hoteltriplehill.com' }, { label: 'Code', link: 'https://github.com/bikashxsharma/hotel-triple-hill' },],
+    status: 'Private Repo',
   },
   {
     title: 'My portfolio',
@@ -26,7 +27,7 @@ export const RecentProjectData = [
     detail:
       'React, Typescript, Redux, Thunk, Material UI, SCSS',
     image: process.env.PUBLIC_URL + '/images/countryApi_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://bcountry-api.netlify.app/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/country-api' }],
+    buttons: [{ label: 'Demo', link: 'https://bw-country-api.netlify.app/' }, { label: 'Code', link: 'https://github.com/thebikashweb/country-api' }],
   },
   {
     title: 'Lets do it',
@@ -34,21 +35,6 @@ export const RecentProjectData = [
       'Day todo app using Vue, Vue router, Vuex, css,',
     image: process.env.PUBLIC_URL + '/images/letsdoit_thumb.png',
     buttons: [{ label: 'Demo', link: 'https://vueletsdoit.netlify.app/' }, { label: 'Code', link: 'https://github.com/bikashxsharma/vue-lets-do-it' }],
-  },
-  {
-    title: 'Web Scrap v1',
-    detail:
-      'Desktop GUI app using Python, Selenium & Tkinter',
-    image: process.env.PUBLIC_URL + '/images/web_scrap_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://github.com/bikashxsharma/python-web-scrap/tree/master#screenshots' }, { label: 'Code', link: 'https://github.com/bikashxsharma/python-web-scrap' }],
-
-  },
-  {
-    title: 'Grocery code search',
-    detail:
-      'Mobile Webapp: React, Typescript, SCSS, CSS/FLEX, React Hook',
-    image: process.env.PUBLIC_URL + '/images/plucodes_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://produce-code.netlify.app/' }, { label: 'Code', link: "https://github.com/bikashxsharma/produce-code" }],
   },
   // {
   //   title: 'Git Trending',
