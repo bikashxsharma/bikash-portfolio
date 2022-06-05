@@ -19,16 +19,9 @@ export const Banner = () => {
 						<span className="text-highlight">impact on users.</span> I have also
 						gained experience as a consultant,
 						<span className="text-highlight"> product designer</span>, and
-						digital marketer. Currently I am a co-founder and the Lead Product
-						Developer at{" "}
-						<a
-							className="github"
-							href="https://wonsta.io"
-							target="_blank"
-							rel="noopener noreferrer">
-							Wonsta.
-						</a>{" "}
-						I commit code to{" "}
+						digital marketer. My experience as a UX designer and startup
+						co-founder has opened the ability to understand both the business
+						side as well as the users’ side of any project. I commit code to{" "}
 						<a
 							className="github"
 							href="https://github.com/bikashxsharma"

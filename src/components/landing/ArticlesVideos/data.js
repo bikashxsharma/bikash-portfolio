@@ -1,11 +1,26 @@
 export const RecentProjectData = [
   {
-    title: 'You should avoid these 5 mistakes as a Junior Developer',
+    title: 'All you need to learn typescript | React Typescript',
     detail:
-      'Search bar filter in Vanilla JS, React and Vue',
-    image: 'https://miro.medium.com/fit/c/224/224/0*1XNXYt44L_x_McEY',
-    link: 'https://bikashxsharma.medium.com/you-should-avoid-these-5-mistakes-as-a-junior-developer-478fa8b927c9',
+      'TypeScript to go under an hour',
+    image: 'https://i.ytimg.com/an_webp/NVdYE4goKgI/mqdefault_6s.webp?du=3000&sqp=CPC585QG&rs=AOn4CLAOkA-sZxzxEW7xfNohMgU6M_sc8A',
+    link: 'https://youtu.be/NVdYE4goKgI',
   },
+  {
+    title: 'Two tips to become a web developer',
+    detail:
+      'How to land a job as a web developer?',
+    image: 'https://miro.medium.com/fit/c/224/224/0*bprZpuVvyjukYzJI',
+    link: 'https://bikashxsharma.medium.com/these-two-tips-should-be-enough-for-you-to-become-a-web-developer-and-land-a-job-17688eb9ffbb',
+  },
+  {
+    title: 'Learn React JS in 2 Hours',
+    detail:
+      'Everything you need to know | React Tutorial for Beginner | Crash course',
+    image: 'https://i.ytimg.com/an_webp/_uPIAH-BZ_U/mqdefault_6s.webp?du=3000&sqp=CNi885QG&rs=AOn4CLCxEOYyQ2X7yVpxuc5g95-NFgZ-Aw',
+    link: 'https://youtu.be/_uPIAH-BZ_U',
+  },
+
   {
     title: 'Create a search bar',
     detail:
@@ -13,13 +28,7 @@ export const RecentProjectData = [
     image: 'https://i.ytimg.com/vi/-KI23GLNZuE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCd1ROJ_d3vOEEhIpXCYbp1laG_fw',
     link: 'https://youtu.be/-KI23GLNZuE',
   },
-  {
-    title: 'Country Rest API App',
-    detail:
-      'Build a complete web app using Country Rest API | React Portfolio Project with TypeScript',
-    image: 'https://i.ytimg.com/vi/gQACsKc7hYc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFdY4KgWTa0_urhYuLRKmkwTbwyQ',
-    link: 'https://www.youtube.com/watch?v=gQACsKc7hYc&t=6362s',
-  },
+
   {
     title: 'Redux explained',
     detail:
